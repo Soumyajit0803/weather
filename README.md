@@ -1,8 +1,24 @@
-# React + Vite
+## Clone the repository, start brainstorming your ideas! 💡
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Follow the below commands step by step, to clone this repository in your machine and get the website in the same state as I was during the meet.
 
-Currently, two official plugins are available:
+* Cloning the repository
+    ```bash
+    git clone https://github.com/Soumyajit0803/weather.git
+    ```
+* Move to project working directory
+    ```bash
+    cd weather
+    ```
+* Install required dependencies
+    ```bash
+    npm install
+    ```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+And it is done! Now run the vite server using the following command and check if the website is live on you local machine.
+
+```bash
+npm run dev
+```
+
+Start building from here, we are excited to see your ideas!✨
