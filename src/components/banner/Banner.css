@@ -34,9 +34,41 @@
 }
 
 .banner .typography .status {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 .banner .image img {
     width: 14rem;
 }
+
+@media screen and (max-width: 755px) {
+    .banner {
+        flex-direction: column-reverse;
+        width: 100%;
+        gap: 0px;
+        background: none;
+    }
+
+    .banner .typography {
+        align-items: center;
+    }
+
+    .banner .typography .minmax {
+        width: max-content;
+        gap: 2rem;
+    }
+
+    .banner .typography .temperature {
+        font-size: 4rem;
+    }
+
+    .banner .image img {
+        width: 12rem;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .banner {
+        padding: 0;
+    }
+} 

@@ -24,9 +24,9 @@ export const InfoCard = ({ field, value }) => {
     );
 };
 
-export function TimeCard({ time, amORpm }) {
+export function TimeCard({ time, amORpm, version }) {
     return (
-        <div className="time-card">
+        <div className={"time-card " + version}>
             <div className="field">Sunrise</div>
             <div className="time">
                 <img src={sunrise} alt="" srcSet="" className="sun-icon" />

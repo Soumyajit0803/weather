@@ -5,8 +5,28 @@
     flex-direction: column;
     width: max-content;
     height: 52.67px;
+    font-weight: 400;
+    color: var(--light-text);
+}
+
+.datetime.mobile {
+    display: none
 }
 
 .datetime .time {
     font-size: 1.3rem;
+    font-weight: 500;
+    color: #fff
+}
+
+@media screen and (max-width: 755px) {
+    .datetime.mobile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        flex-direction: row-reverse;
+        height: max-content;
+        padding: 0 1rem;
+    }
 }

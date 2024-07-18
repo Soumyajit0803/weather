@@ -16,7 +16,7 @@ const monthNames = [
     "December",
 ];
 
-const DateTime = () => {
+const DateTime = ({version}) => {
     const date = new Date();
     let hours = date.getHours();
     const minutes = date.getMinutes();
@@ -39,7 +39,7 @@ const DateTime = () => {
     const formattedDate = `${dayName}, ${exactDate}${daySuffix(exactDate)} ${month}`;
 
     return (
-        <div className="datetime">
+        <div className={"datetime " + version}>
             <div className="time">
                 <span>{timeString}</span>
                 <span style={{'font-size': "0.9rem", marginLeft : "0.5ch"}}>{ampm}</span>

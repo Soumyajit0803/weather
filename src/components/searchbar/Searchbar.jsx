@@ -17,7 +17,7 @@ const SearchBar = () => {
             {/* <FontAwesomeIcon icon={faArrowUp} color="var(--background)"/>
              */}
             <FontAwesomeIcon icon={faSearch} className="searchicon" />
-            <input ref={inputRef} className="textfield" />
+            <input ref={inputRef} className="textfield" placeholder="Search Locations..." />
             <button onClick={handleSearch} className="button">
                 <FontAwesomeIcon icon={faLocationDot} fontSize={'1.5rem'}/>
             </button>

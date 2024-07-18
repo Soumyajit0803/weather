@@ -28,7 +28,8 @@
 }
 
 ::-webkit-input-placeholder {
-    color: var(--theme);
+    /* color: var(--light); */
+    color: color-mix(in srgb, black 30%, var(--light) 70%)
 }
 
 .searchbar .button {
@@ -41,4 +42,14 @@
     background-color: var(--light);
     color: var(--theme);
     aspect-ratio: 1/1;
+}
+
+@media screen and (max-width: 420px) {
+    .searchbar {
+        padding: 0rem 0.8rem;
+    }
+
+    .searchbar .searchicon {
+        left: 1.6rem
+    }
 }

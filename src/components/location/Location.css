@@ -3,9 +3,18 @@
     align-items: start;
     justify-content: center;
     flex-direction: column;
-    width: 100%
+    width: 100%;
+    color: var(--light-text);
 }
 
 .location .exact {
     font-size: 1.8rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+@media screen and (max-width: 755px) {
+    .location {
+        align-items: center;
+    }
 }
